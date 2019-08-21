@@ -6,20 +6,47 @@ package com.utils
 object RptUtils {
 
   // 此方法处理请求数
-  def request(requestmode:Int,processnode:Int):List[Double]={
-
+  def request(requestmode:Int ,processnode:Int):List[Double]={
+    var a = 0.0
+    var b = 0.0
+    var c = 0.0
+    if(requestmode == 1 ){
+      if(processnode >= 1) a = 1
+      if(processnode >= 2) b = 1
+      if(processnode == 3) c = 1
+    }
+    List(a,b,c)
   }
 
   // 此方法处理展示点击数
 
   def click(requestmode:Int,iseffective:Int):List[Double]={
-
+    var a = 0.0
+    var b = 0.0
+    if(iseffective == 1){
+      if(requestmode == 2) a = 1
+      if(requestmode == 3) b = 1
+    }
+    List(a,b)
   }
   // 此方法处理竞价操作
 
-  def Ad(iseffective:Int,isbilling:Int,isbid:Int,iswin:Int,
-         adorderid:Int,WinPrice:Double,adpayment:Double):List[Double]={
+  def Ad(iseffective:Int,isbilling:Int,isbid:Int,iswin:Int,adorderid:Int,
+         WinPrice:Double,adpayment:Double):List[Double]={
+    var a = 0.0
+    var b = 0.0
+    var c = 0.0
+    var d = 0.0
+    if(iseffective == 1 && isbilling == 1 ){
+      if(isbid == 1) a = 1
+      if(iswin == 1) {
+        if(adorderid != 0) b = 1
+        c = WinPrice/1000
+        d = adpayment/1000
+      }
+    }
 
+    List(a,b,c,d)
   }
 
 }

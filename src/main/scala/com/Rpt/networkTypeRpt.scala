@@ -1,11 +1,10 @@
 package com.Rpt
 
 import com.utils.RptUtils
-import org.apache.spark.rdd.RDD
-import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
+import org.apache.spark.{SparkConf, SparkContext}
 
-object LocationRpt {
+object networkTypeRpt {
   def main(args: Array[String]): Unit = {
     //判断路径
     if(args.length !=2){
@@ -30,16 +29,16 @@ object LocationRpt {
       val adorderid = row.getAs[Int]("adorderid")
       val WinPrice = row.getAs[Double]("winprice")
       val adpayment = row.getAs[Double]("adpayment")
-      // key 值  是地域的省市
-      val pro = row.getAs[String]("provincename")
-      val city = row.getAs[String]("cityname")
+      // key 值
+      val networkmannerid = row.getAs[Int]("networkmannerid")
+      val networkmannername = row.getAs[String]("networkmannername")
       // 创建三个对应的方法处理九个指标
 
       val lst1:List[Double] = RptUtils.request(requestmode, processnode)
       val lst2:List[Double] = RptUtils.click(requestmode, iseffective)
       val lst3:List[Double] = RptUtils.Ad(iseffective, isbilling, isbid, iswin, adorderid, WinPrice, adpayment)
 
-      ((pro, city), List(lst1(0), lst1(1), lst1(2), lst3(0), lst3(1), lst2(0), lst2(1), lst3(2), lst3(3)))
+      ((networkmannerid, networkmannername), List(lst1(0), lst1(1), lst1(2), lst3(0), lst3(1), lst2(0), lst2(1), lst3(2), lst3(3)))
     })
     val unit = a09.reduceByKey((x,y) => x.zip(y).map(x => x._1+x._2))
       .map(x => (
