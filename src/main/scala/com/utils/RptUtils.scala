@@ -41,8 +41,8 @@ object RptUtils {
       if(isbid == 1) a = 1
       if(iswin == 1) {
         if(adorderid != 0) b = 1
-        c = WinPrice/1000
-        d = adpayment/1000
+        c = WinPrice/1000.0
+        d = adpayment/1000.0
       }
     }
 
