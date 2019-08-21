@@ -1,16 +1,25 @@
 package com.utils
 
+/**
+  * 指标方法
+  */
 object RptUtils {
 
-  def request(requestmode:String,processnode:String):List[Int] ={
-    List(0)
+  // 此方法处理请求数
+  def request(requestmode:Int,processnode:Int):List[Double]={
+
   }
 
-  def click(requestmode:String,processnode:String):List[Double] ={
-    List(0)
+  // 此方法处理展示点击数
+
+  def click(requestmode:Int,iseffective:Int):List[Double]={
+
+  }
+  // 此方法处理竞价操作
+
+  def Ad(iseffective:Int,isbilling:Int,isbid:Int,iswin:Int,
+         adorderid:Int,WinPrice:Double,adpayment:Double):List[Double]={
+
   }
 
-  def click2(requestmode:String,processnode:String):List[Double] ={
-    List(0)
-  }
 }
