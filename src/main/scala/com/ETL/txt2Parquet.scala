@@ -121,16 +121,16 @@ object txt2Parquet {
     // 构建DF
     val df = sQLContext.createDataFrame(rowRDD,SchemaUtils.structtype)
 
-    df.write.parquet(outputPath)
-//    pro_city_count(df,outputPath)
-//    DF_mydql(df,"tst")
+//    df.write.parquet(outputPath)
+//    pro_city_count(df).write.parquet(outputPath)
+//    DF_mydql(pro_city_count(df),"tst")
 
     sc.stop()
   }
 
-  def pro_city_count(df:DataFrame,outputPath:String) = {
+  def pro_city_count(df:DataFrame) = {
     val pro_city_count: DataFrame = df.groupBy("provincename","cityname").count()
-    pro_city_count.write.json(outputPath+"/json")
+    pro_city_count
   }
 
   def DF_mydql(df:DataFrame,str:String) = {

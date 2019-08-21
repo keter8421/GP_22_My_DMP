@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4686b483-94d7-4866-ba03-1c2b059416fc" name="Default Changelist" comment="第二天">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/SchemaUtils.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/Utils2Type.scala" afterDir="false" />
+    <list default="true" id="4686b483-94d7-4866-ba03-1c2b059416fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Test/AtructType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/RptUtils.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,12 +26,51 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+            <state relative-caret-position="113">
+              <caret line="125" column="40" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
               <folding>
                 <element signature="e#17#44#0" expanded="true" />
                 <element signature="e#1075#3220#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/RptUtils.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="e#17#66#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/Test/AtructType.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -51,6 +93,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/Utils2Type.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/utils/SchemaUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Test/AtructType.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/utils/RptUtils.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" />
       </list>
     </option>
@@ -108,6 +154,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GP_22_My_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_My_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Rpt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GP_22_My_DMP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GP_22_My_DMP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -183,7 +247,7 @@
       <workItem from="1566265249626" duration="9118000" />
       <workItem from="1566299130832" duration="8651000" />
       <workItem from="1566315665537" duration="2179000" />
-      <workItem from="1566346095328" duration="4292000" />
+      <workItem from="1566346095328" duration="8980000" />
     </task>
     <task id="LOCAL-00001" summary="黄玉明干的">
       <created>1566219715609</created>
@@ -213,14 +277,22 @@
       <option name="project" value="LOCAL" />
       <updated>1566267856145</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="第二天">
+      <created>1566352332589</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1566352332589</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25241000" />
+    <option name="totallyTimeSpent" value="29929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="762" y="0" width="782" height="871" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26381215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -231,17 +303,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4871448" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4871448" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3292683" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32791328" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.32611638" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32791328" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32611638" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32882273" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3292683" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -303,10 +375,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/spark/spark-core_2.10/1.6.0/spark-core_2.10-1.6.0.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Test/AtructType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="164" column="2" selection-start-line="164" selection-start-column="2" selection-end-line="164" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/Rpt/LocationRpt.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#17#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/utils/RptUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+        <state relative-caret-position="113">
+          <caret line="125" column="40" lean-forward="true" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
           <folding>
             <element signature="e#17#44#0" expanded="true" />
             <element signature="e#1075#3220#0" />
