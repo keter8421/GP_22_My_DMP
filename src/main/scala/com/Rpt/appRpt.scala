@@ -1,6 +1,6 @@
 package com.Rpt
 
-import com.utils.RptUtils
+import com.utils.{AppNameUtils, RptUtils}
 import org.apache.spark.broadcast.Broadcast
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.SQLContext
@@ -45,15 +45,7 @@ object appRpt {
 
     import sQLContext.implicits._
 
-    val lines: RDD[String] = sc.textFile("E:\\最终项目\\Spark用户画像分析\\app_dict.txt")
-
-    val applist: Map[String, String] = lines.map(x => {
-      val arr = x.split("\t", x.length).toBuffer
-      val id = if (x.length < 9) "" else arr(3)
-      val name = if (x.length < 9) "" else arr(1)
-      (id, name)
-    }).collect.toMap
-    val bApplist: Broadcast[Map[String, String]] = sc.broadcast(applist)
+    val bApplist: Broadcast[Map[String, String]] = AppNameUtils.getAppName(sc)
 
     val res = a09.map(x => {
       ({
