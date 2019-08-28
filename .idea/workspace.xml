@@ -4,30 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" line="51" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4686b483-94d7-4866-ba03-1c2b059416fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Test/redis_test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Graphx/graph_test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/BusinessTag.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagKeyWord.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/AmapUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/HttpUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/HttpUtil2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/JedisConnectionPool.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/utils/test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spark_assembly_1_6_0_hadoop2_6_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/spark_assembly_1_6_0_hadoop2_6_0.xml" afterDir="false" />
+    <list default="true" id="4686b483-94d7-4866-ba03-1c2b059416fc" name="Default Changelist" comment="7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Test/Test.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Test/Test.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/ETL/txt2Parquet.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsContext.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsLocation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/Tags/TagsLocation.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/AppNameUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/AppNameUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/AppName_RedisAddDataUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/AppName_RedisAddDataUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/TagUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/TagUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/utils/keyword_RedisAddDataUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/utils/keyword_RedisAddDataUtils.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,7 +22,7 @@
     <favorites_list name="GP_22_My_DMP" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -348,6 +326,7 @@
       <workItem from="1566829816879" duration="4613000" />
       <workItem from="1566865870231" duration="15268000" />
       <workItem from="1566895605079" duration="8156000" />
+      <workItem from="1566963912177" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="黄玉明干的">
       <created>1566219715609</created>
@@ -426,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566565350487</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="第二天">
+      <created>1566964015815</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566964015815</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -442,9 +428,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="781" height="870" extended-state="0" />
+    <frame x="-7" y="0" width="782" height="871" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25311205" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -516,7 +502,8 @@
     <MESSAGE value="黄玉明干的" />
     <MESSAGE value="平生第一次上传GitHub，好兴奋啊" />
     <MESSAGE value="第二天" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二天" />
+    <MESSAGE value="7" />
+    <option name="LAST_COMMIT_MESSAGE" value="7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GP_22_My_DMP$TagsContext2.ic" NAME="TagsContext2 Coverage Results" MODIFIED="1566826767868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
