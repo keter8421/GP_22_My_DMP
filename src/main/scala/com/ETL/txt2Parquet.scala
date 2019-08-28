@@ -122,7 +122,8 @@ object txt2Parquet {
     val df = sQLContext.createDataFrame(rowRDD,SchemaUtils.structtype)
 
 //    df.write.parquet(outputPath)
-    pro_city_count(df).coalesce(1).write.partitionBy("provincename","cityname").parquet(outputPath+"/tmp_delete2")
+//    pro_city_count(df).coalesce(1).write.partitionBy("provincename","cityname").parquet(outputPath+"/tmp_delete2")
+    pro_city_count(df).coalesce(1).write.parquet(outputPath)
 //    DF_mydql(pro_city_count(df),"tst")
 
     sc.stop()

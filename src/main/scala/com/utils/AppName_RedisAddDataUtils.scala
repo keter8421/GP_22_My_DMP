@@ -12,12 +12,15 @@ object AppName_RedisAddDataUtils {
     val jedis = new Jedis("yuke", 6379)
 
     val lines: RDD[String] = sc.textFile("E:\\最终项目\\Spark用户画像分析\\app_dict.txt")
+
     lines.map(x => {
       val arr = x.split("\t", x.length)
       val id = if (x.length < 9) "" else arr(4)
       val name = if (x.length < 9) "" else arr(1)
       (id, name)
-    }).collect.toMap.map(x => {
+    }).collect.toMap
+
+      .map(x => {
       jedis.hset("AppIdName", x._1, x._2)
     })
 

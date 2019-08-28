@@ -12,10 +12,7 @@ object TagsLocation extends Tag{
     */
   override def makeTags(args: Any*): List[(String, Int)] = {
     var list =List[(String,Int)]()
-
-    // 解析参数
     val row = args(0).asInstanceOf[Row]
-
     val provincename = row.getAs[String]("provincename")
     val cityname = row.getAs[String]("cityname")
 

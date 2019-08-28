@@ -14,11 +14,11 @@ object keyword_RedisAddDataUtils {
 
     val lines: RDD[String] = sc.textFile("E:\\最终项目\\Spark用户画像分析\\stopwords.txt")
     lines.foreach(x => {
-      A.getResource.sadd("keyword", x)
+      jedis.sadd("keyword", x)
     })
 
-    A.close()
+    jedis.close()
 
   }
 }
-object A extends JedisPool("yuke", 6379){}
+//object A extends JedisPool("yuke", 6379){}

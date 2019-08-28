@@ -90,6 +90,27 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.58</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
+<!--        <dependency>-->
+<!--            <groupId>io.netty</groupId>-->
+<!--            <artifactId>netty-all</artifactId>-->
+<!--            <version>4.0.23.Final</version>-->
+<!--        </dependency>-->
+
+
+        <!--        &lt;!&ndash;http&ndash;&gt;-->
+<!--        <dependency>-->
+<!--        <groupId>org.apache.httpcomponents</groupId>-->
+<!--        <artifactId>httpcore</artifactId>-->
+<!--        <version>4.4.11</version>-->
+<!--    </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.apache.httpcomponents</groupId>-->
+<!--            <artifactId>httpclient</artifactId>-->
+<!--            <version>4.5.8</version>-->
+<!--        </dependency>-->
+
     </dependencies>
 
 
